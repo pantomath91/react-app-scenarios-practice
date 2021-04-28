@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
-import './App.css';
 
-function App() {
+function ReactScenarios() {
   const [counter, setCounter] = useState(0)
   const [userData, setUserData] = useState([]);
 
@@ -55,7 +54,7 @@ function App() {
   );
 }
 
-export default App;
+export default ReactScenarios;
 
 
 

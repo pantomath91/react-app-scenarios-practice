@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import ReactScenarios from './src/reactScenarios'
 import reportWebVitals from './reportWebVitals';
+import Rahul from './HOC/Rahul';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ReactScenarios />
+    <Rahul camp="120"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
