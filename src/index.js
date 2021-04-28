@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactScenarios from './src/reactScenarios'
+import ReactScenarios from './youtubeReactInterview/reactScenarios'
 import reportWebVitals from './reportWebVitals';
 import Rahul from './HOC/Rahul';
 
